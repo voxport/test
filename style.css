@@ -1,0 +1,121 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Azeret Mono", monospace;
+}
+
+:root {
+  /* background color   */
+  --background-pink: #4a2b33;
+  --background-gery: #e9e9e3;
+  --background-gold: #aa9e54;
+
+  /* text color  */
+  --primary-text: #222222;
+  --secondary-text: #6f6f64;
+  --invert-text-white: #ffffff;
+  --invert-text-pink: #d27487;
+
+  /* link & buttons color  */
+  --primary-link-color: #d27487;
+  --primary-link-hover: #1f1f1f;
+
+  --secondary-link-color: #1f1f1f;
+  --seconddary-link-hover: #d27487;
+
+  --copyright-color: #6d6b67;
+  --copyright-hover: #1f1f1f;
+
+  --background-button: #6f6f64;
+}
+
+/* Utilities  */
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  border: 1px yellowgreen solid;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+
+/* Header  */
+.header {
+  background-color: var(--background-pink);
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation__list {
+  display: flex;
+  gap: 20px;
+  margin-right: 296px;
+}
+
+/* .header-navigation__item {
+} */
+
+.header-navigation__link {
+  font-family: 'Inter';
+  font-size: 15px;
+  line-height: 1.6em;
+  color: var(--primary-link-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: color 0.3s;
+}
+
+.header-navigation__link:hover,
+.header-navigation__link:focus {
+  color: var(--primary-link-hover);
+}
+
+.header-logo {
+  margin-right: 422px;
+}
+.social-list {
+  display: flex;
+  gap: 16px;
+}
+/* .social-list__item {
+} */
+
+.social-list__link {
+  fill: var(--primary-link-color);
+  transition: fill 0.3s;
+}
+
+.social-list__link:hover,
+.social-list__link:focus {
+  fill: var(--primary-link-hover);
+}
+
+
+/* .social-list__icon {
+} */
+
+/* Hero */
+.hero {
+  background-color: var(--background-pink);
+  padding-bottom: 36px;
+}
+
+.hero-img {
+  margin: 0 auto;
+}
+
+.hero-title {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
