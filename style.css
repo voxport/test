@@ -119,3 +119,28 @@ body {
   width: 0;
   height: 0;
 }
+
+
+/* About Us */
+.about {
+  padding-top: 220px;
+  padding-bottom: 244px;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.27em;
+  text-align: center;
+  color: var(--primary-text);
+}
+
+.about__paragraph {
+  font-family: 'Inter';
+  font-size: 32px;
+  line-height: 1.4em;
+  text-align: center;
+  color: var(--primary-text);
+  width: 869px;
+  margin: 0 auto;
+}
