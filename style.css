@@ -259,3 +259,19 @@ color: var(--invert-text-white);
 
 
 
+/* Photo Section */
+.photo {
+  padding-top: 152px;
+  padding-bottom: 120px;
+}
+
+.phtoto__wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.photo__block-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
