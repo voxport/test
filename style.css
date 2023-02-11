@@ -216,3 +216,46 @@ transition: background-color 0.3s, color 0.3s;
 }
 .menu-list__img {
 }
+
+
+
+/* Contacts Section */
+.contacts {
+  background-color: var(--background-gold);
+  padding-top: 120px;
+  padding-bottom: 135px;
+}
+
+
+.contacts__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__item {
+  width: 390px;
+}
+
+.contacts__title {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.2em;
+text-align: center;
+color: var(--invert-text-white);
+margin-bottom: 15px;
+}
+
+.contacts__paragraph {
+  font-family: 'Inter';
+font-size: 25px;
+line-height: 1.46em;
+text-align: center;
+color: var(--invert-text-white);
+}
+
+.contacts__indent {
+  margin-bottom: 35px;
+}
+
+
+
