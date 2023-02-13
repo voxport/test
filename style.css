@@ -140,8 +140,9 @@ body {
 }
 
 /* Hero */
-/* .hero {
+.hero {
   background-color: var(--background-pink);
+  padding-top: 36px;
   padding-bottom: 36px;
 }
 
@@ -155,6 +156,20 @@ body {
   width: 0;
   height: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* About Us */
 /* .about {

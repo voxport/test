@@ -79,10 +79,42 @@
 
     <main>
       <!-- Hero section -->
-      <!-- <section class="hero section">
-        <img class="hero-img" src="./img/header.jpg" alt="hero-img" />
+      <section class="hero section">
+        <!-- <img class="hero-img" src="./img/header.jpg" alt="hero-img" /> -->
+
+        <picture>
+          <source
+            srcset="
+              ./img/hero/hero-01-1440.jpg    1x,
+              ./img/hero/hero-01-1440@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+
+          <source
+            srcset="
+            ./img/hero/hero-01-768.jpg    1x,
+            ./img/hero/hero-01-768@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="
+            ./img/hero/hero-01-480.jpg    1x,
+            ./img/hero/hero-01-480@2x.jpg 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img class="hero-img"
+            src="./img/hero/hero-01-480.jpg"
+            alt="hero img"
+            loading="lazy"
+          />
+        </picture>
+        
         <h1 class="hero-title">Latte Cafe - premium coffee shop</h1>
-      </section> -->
+      </section>
 
       <!-- About Us -->
       <!-- <section class="about section">
