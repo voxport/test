@@ -157,28 +157,27 @@ body {
   height: 0;
 }
 
-
 /* About Us */
 .about {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-@media (min-width:320px) {
+@media (min-width: 320px) {
   .about {
     padding-top: 32px;
     padding-bottom: 32px;
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .about {
     padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 
-@media (min-width:1440px) {
+@media (min-width: 1440px) {
   .about {
     padding-top: 220px;
     padding-bottom: 244px;
@@ -200,13 +199,13 @@ body {
   color: var(--primary-text);
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .about__paragraph {
     font-size: 28px;
   }
 }
 
-@media (min-width:1440px) {
+@media (min-width: 1440px) {
   .about__paragraph {
     width: 869px;
     margin: 0 auto;
@@ -214,57 +213,80 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Menu Section */
-/* .menu {
+.menu {
   background-color: var(--background-gery);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-.menu__wrapper {
-  display: flex;
+@media (min-width:768px) {
+  .menu {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
-.menu-category {
-  width: 50%;
+@media (min-width: 1440px) {
+  .menu {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .menu__wrapper {
+    display: flex;
+  }
+}
+
+@media (min-width: 1440px) {
+  .menu-category {
+    width: 50%;
+  }
 }
 
 .menu__title {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1.2em;
+  font-size: 17px;
+  text-align: center;
+
   color: var(--secondary-text);
-  margin-bottom: 17px;
+}
+
+@media (min-width: 1440px) {
+  .menu__title {
+    text-align: left;
+    line-height: 1.2em;
+    margin-bottom: 17px;
+  }
 }
 
 .menu__description {
   font-family: "Inter";
-  font-size: 32px;
+  text-align: center;
   line-height: 1.4em;
   color: var(--secondary-text);
-  margin-bottom: 63px;
-  width: 560px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .menu__description {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .menu__description {
+    width: 560px;
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 63px;
+  }
 }
 
 .menu__button {
   display: block;
-  width: 531px;
   padding-top: 17px;
   padding-bottom: 17px;
   margin-bottom: 12px;
@@ -277,8 +299,21 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.menu__button:last-child {
-  margin-bottom: 0px;
+@media (min-width: 768px) {
+  .menu__button {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .menu__button {
+    width: 531px;
+    font-size: 15px;
+  }
+}
+
+.menu-list__img {
+  margin: 0 auto;
 }
 
 .menu__button:hover,
@@ -286,22 +321,25 @@ body {
 .menu__button:active {
   background-color: var(--background-button);
   color: var(--invert-text-white);
-} */
+}
 
 /* Contacts Section */
-/* .contacts {
+.contacts {
   background-color: var(--background-gold);
-  padding-top: 120px;
-  padding-bottom: 135px;
+  padding: 32px 0;
 }
 
-.contacts__list {
-  display: flex;
-  justify-content: space-between;
+@media (min-width:768px) {
+  .contacts {
+    padding: 60px 0;
+  }
 }
 
-.contacts__item {
-  width: 390px;
+@media (min-width:1440px) {
+  .contacts {
+    padding-top: 120px;
+    padding-bottom: 135px;
+  }
 }
 
 .contacts__title {
@@ -315,15 +353,52 @@ body {
 
 .contacts__paragraph {
   font-family: "Inter";
-  font-size: 25px;
+  font-size: 16px;
   line-height: 1.46em;
   text-align: center;
   color: var(--invert-text-white);
 }
 
-.contacts__indent {
-  margin-bottom: 35px;
-} */
+@media (min-width:1440px) {
+  .contacts__paragraph {
+    font-size: 25px;
+  }
+}
+
+@media (min-width:1440px) {
+  .contacts__list {
+    display: flex;
+    justify-content: space-between;
+    text-align-last: center;
+  }
+}
+
+.contacts__item {
+  margin-bottom: 32px;
+  width: 33.3%;
+}
+
+@media (min-width:1440px) {
+  .contacts__item {
+    margin-bottom: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Photo Section */
 /* .photo {
