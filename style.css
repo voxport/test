@@ -158,23 +158,31 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* About Us */
-/* .about {
-  padding-top: 220px;
-  padding-bottom: 244px;
+.about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media (min-width:320px) {
+  .about {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width:768px) {
+  .about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width:1440px) {
+  .about {
+    padding-top: 220px;
+    padding-bottom: 244px;
+  }
 }
 
 .about__title {
@@ -187,13 +195,40 @@ body {
 
 .about__paragraph {
   font-family: "Inter";
-  font-size: 32px;
-  line-height: 1.4em;
   text-align: center;
+  line-height: 1.4em;
   color: var(--primary-text);
-  width: 869px;
-  margin: 0 auto;
-} */
+}
+
+@media (min-width:768px) {
+  .about__paragraph {
+    font-size: 28px;
+  }
+}
+
+@media (min-width:1440px) {
+  .about__paragraph {
+    width: 869px;
+    margin: 0 auto;
+    font-size: 32px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Menu Section */
 /* .menu {
