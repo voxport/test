@@ -436,59 +436,86 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Photo Section */
-/* .photo {
-  padding-top: 152px;
-  padding-bottom: 120px;
+/* Awards */
+.awards {
+  background-color: var(--background-pink);
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
-.phtoto__wrapper {
-  display: flex;
-  gap: 40px;
+@media (min-width:768px) {
+  .awards {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
-.photo__block-1 {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-} */
+@media (min-width:1440px) {
+  .awards {
+    padding-top: 121px;
+    padding-bottom: 133px;
+  }
+}
+
+@media (min-width:1440px) {
+  .awards__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.awards__title {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.33em;
+  letter-spacing: 0.1px;
+  color: var(--invert-text-pink);
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+@media (min-width:1440px) {
+  .awards__title {
+    width: 413px;
+    text-align: left;
+    font-size: 47px;
+
+  }
+}
+
+.awards__description {
+  font-family: "Inter";
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5em;
+  color: var(--invert-text-pink);
+}
+
+@media (min-width:768px) {
+  .awards__description {
+    font-size: 18px;
+  }
+}
+
+@media (min-width:1440px) {
+  .awards__description {
+    width: 595px;
+    text-align: left;
+    padding-top: 18px;
+  }
+}
+
+
+
+
 
 /* Awards Section  */
 /* .awards {
-  background-color: var(--background-pink);
-  padding-top: 121px;
-  padding-bottom: 133px;
-}
+
 
 .awards__wrapper {
   display: flex;
   justify-content: space-between;
-}
-
-.awards__title {
-  width: 413px;
-  font-size: 47px;
-  font-weight: 400;
-  line-height: 1.33em;
-  letter-spacing: 1px;
-  color: var(--invert-text-pink);
 }
 
 .awards__description {
